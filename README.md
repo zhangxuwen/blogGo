@@ -1,4 +1,4 @@
-# simpleWeb
-基于Golang开发的任务清单网站
+# Blog Web
+基于Golang开发的blog网站
 技术栈：Gin，MySQL,Redis，Docker
 
