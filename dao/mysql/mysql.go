@@ -25,6 +25,7 @@ func Init(cfg settings.MySQLConfig) (err error) {
 		// viper.GetString("mysql.dbname"),
 		cfg.DbName,
 	)
+	fmt.Println(cfg.Port)
 	// 也可以使用MustConnect连接不成功就panic
 	db, err = sqlx.Connect("mysql", dsn)
 	if err != nil {
