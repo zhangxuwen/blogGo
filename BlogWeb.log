@@ -1,6 +1,0 @@
-{"level":"DEBUG","time":"2024-04-26T00:51:56.563+0800","caller":"blogWeb/main.go:38","msg":"logger init success ..."}
-{"level":"ERROR","time":"2024-04-26T00:51:56.586+0800","caller":"mysql/mysql.go:31","msg":"connect DB error","error":"dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context."}
-{"level":"DEBUG","time":"2024-04-26T00:52:47.079+0800","caller":"blogWeb/main.go:38","msg":"logger init success ..."}
-{"level":"ERROR","time":"2024-04-26T00:52:47.098+0800","caller":"mysql/mysql.go:31","msg":"connect DB error","error":"dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context."}
-{"level":"DEBUG","time":"2024-04-26T00:53:49.353+0800","caller":"blogWeb/main.go:38","msg":"logger init success ..."}
-{"level":"ERROR","time":"2024-04-26T00:53:49.373+0800","caller":"mysql/mysql.go:32","msg":"connect DB error","error":"dial tcp 127.0.0.1:0: connectex: The requested address is not valid in its context."}
