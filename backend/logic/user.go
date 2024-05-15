@@ -43,17 +43,22 @@ func SingUp(p *models.ParamSignUp) (err error) {
 	return
 }
 
-func Login(p *models.ParamLogin) (token string, err error) {
-	user := &models.User{
+func Login(p *models.ParamLogin) (user *models.User, err error) {
+	user = &models.User{
 		UserName: p.Username,
 		PassWord: p.Password,
 	}
 
 	if err := mysql.Login(user); err != nil {
 		zap.L().Error("mysql.Login failed", zap.Error(err))
-		return "", err
+		return nil, err
 	}
 
 	// 生成JWT
-	return jwt.GenToken(user.UserID, user.UserName)
+	token, err := jwt.GenToken(user.UserID, user.UserName)
+	if err != nil {
+		return
+	}
+	user.Token = token
+	return
 }

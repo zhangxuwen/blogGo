@@ -89,3 +89,57 @@
 {"level":"INFO","time":"2024-04-29T19:27:29.061+0800","caller":"logger/logger.go:84","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0008284}
 {"level":"INFO","time":"2024-04-29T19:28:27.623+0800","caller":"logger/logger.go:84","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.002365}
 {"level":"INFO","time":"2024-04-29T19:35:12.604+0800","caller":"logger/logger.go:84","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.002665}
+{"level":"DEBUG","time":"2024-04-30T19:25:13.464+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"ERROR","time":"2024-04-30T19:25:15.823+0800","caller":"mysql/mysql.go:32","msg":"connect DB error","error":"dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"DEBUG","time":"2024-04-30T19:28:08.259+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"DEBUG","time":"2024-05-02T00:02:20.241+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"DEBUG","time":"2024-05-02T00:02:21.931+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"ERROR","time":"2024-05-02T00:02:22.114+0800","caller":"mysql/mysql.go:32","msg":"connect DB error","error":"invalid connection"}
+{"level":"ERROR","time":"2024-05-02T00:02:22.114+0800","caller":"mysql/mysql.go:32","msg":"connect DB error","error":"invalid connection"}
+{"level":"DEBUG","time":"2024-05-02T09:48:40.857+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"INFO","time":"2024-05-02T09:50:07.762+0800","caller":"logger/logger.go:84","msg":"/api/v1/community/1","status":200,"method":"GET","path":"/api/v1/community/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0007585}
+{"level":"ERROR","time":"2024-05-02T09:51:07.468+0800","caller":"controller/user.go:79","msg":"Login with invalid param","error":"invalid character '\"' after object key:value pair"}
+{"level":"INFO","time":"2024-05-02T09:51:07.468+0800","caller":"logger/logger.go:84","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0006308}
+{"level":"INFO","time":"2024-05-02T09:51:59.986+0800","caller":"logger/logger.go:84","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0148182}
+{"level":"INFO","time":"2024-05-02T09:52:15.853+0800","caller":"logger/logger.go:84","msg":"/api/v1/community","status":200,"method":"GET","path":"/api/v1/community","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0081162}
+{"level":"INFO","time":"2024-05-02T09:52:23.832+0800","caller":"logger/logger.go:84","msg":"/api/v1/community/1","status":200,"method":"GET","path":"/api/v1/community/1","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0021213}
+{"level":"INFO","time":"2024-05-02T09:57:22.811+0800","caller":"logger/logger.go:84","msg":"/api/v1/community/2","status":200,"method":"GET","path":"/api/v1/community/2","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0014755}
+{"level":"DEBUG","time":"2024-05-04T13:15:12.727+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"INFO","time":"2024-05-04T13:15:28.418+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0}
+{"level":"INFO","time":"2024-05-04T13:15:48.154+0800","caller":"logger/logger.go:84","msg":"/api/v1/login","status":200,"method":"POST","path":"/api/v1/login","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0077897}
+{"level":"INFO","time":"2024-05-04T13:16:50.514+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0001301}
+{"level":"DEBUG","time":"2024-05-04T13:17:32.261+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"INFO","time":"2024-05-04T13:17:42.955+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0006308}
+{"level":"DEBUG","time":"2024-05-04T13:19:11.778+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"INFO","time":"2024-05-04T13:19:35.341+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0006282}
+{"level":"ERROR","time":"2024-05-04T13:19:47.677+0800","caller":"controller/post.go:29","msg":"logic.CreatePost(p) failed","error":"Error 1054 (42S22): Unknown column 'title' in 'field list'"}
+{"level":"INFO","time":"2024-05-04T13:19:47.677+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0122222}
+{"level":"ERROR","time":"2024-05-04T13:20:19.743+0800","caller":"controller/post.go:29","msg":"logic.CreatePost(p) failed","error":"Error 1054 (42S22): Unknown column 'title' in 'field list'"}
+{"level":"INFO","time":"2024-05-04T13:20:19.743+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0003781}
+{"level":"ERROR","time":"2024-05-04T13:22:06.508+0800","caller":"controller/post.go:29","msg":"logic.CreatePost(p) failed","error":"sql: expected 5 arguments, got 3"}
+{"level":"INFO","time":"2024-05-04T13:22:06.508+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0019444}
+{"level":"DEBUG","time":"2024-05-04T13:22:23.103+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"ERROR","time":"2024-05-04T13:22:32.364+0800","caller":"controller/post.go:29","msg":"logic.CreatePost(p) failed","error":"sql: expected 5 arguments, got 3"}
+{"level":"INFO","time":"2024-05-04T13:22:32.364+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0012871}
+{"level":"DEBUG","time":"2024-05-04T17:14:32.546+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"ERROR","time":"2024-05-04T17:14:42.599+0800","caller":"controller/post.go:29","msg":"logic.CreatePost(p) failed","error":"sql: expected 5 arguments, got 3"}
+{"level":"INFO","time":"2024-05-04T17:14:42.599+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0036627}
+{"level":"DEBUG","time":"2024-05-04T17:28:00.340+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"ERROR","time":"2024-05-04T17:28:27.774+0800","caller":"controller/post.go:29","msg":"logic.CreatePost(p) failed","error":"sql: expected 5 arguments, got 3"}
+{"level":"INFO","time":"2024-05-04T17:28:27.774+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.008135}
+{"level":"DEBUG","time":"2024-05-04T17:29:22.611+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"INFO","time":"2024-05-04T17:29:34.911+0800","caller":"logger/logger.go:84","msg":"/api/v1/post","status":200,"method":"POST","path":"/api/v1/post","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0085187}
+{"level":"DEBUG","time":"2024-05-05T01:40:56.502+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"INFO","time":"2024-05-05T01:42:52.382+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/45075692659937280","status":404,"method":"GET","path":"/api/v1/post/45075692659937280","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0}
+{"level":"DEBUG","time":"2024-05-05T01:43:13.676+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"INFO","time":"2024-05-05T01:46:26.539+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/45075692659937280","status":200,"method":"GET","path":"/api/v1/post/45075692659937280","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.002839}
+{"level":"DEBUG","time":"2024-05-05T11:12:45.159+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"INFO","time":"2024-05-05T11:18:37.172+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/","status":404,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0}
+{"level":"DEBUG","time":"2024-05-05T11:19:42.071+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"ERROR","time":"2024-05-05T11:19:51.398+0800","caller":"controller/post.go:65","msg":"logic.GetPostList() failed","error":"invalid connection"}
+{"level":"INFO","time":"2024-05-05T11:19:51.398+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":2.6478009}
+{"level":"ERROR","time":"2024-05-05T11:21:27.028+0800","caller":"controller/post.go:65","msg":"logic.GetPostList() failed","error":"dial tcp 127.0.0.1:3306: connectex: No connection could be made because the target machine actively refused it."}
+{"level":"INFO","time":"2024-05-05T11:21:27.029+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0006772}
+{"level":"INFO","time":"2024-05-05T11:23:14.761+0800","caller":"logger/logger.go:84","msg":"/api/v1/post/","status":200,"method":"GET","path":"/api/v1/post/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0141545}
+{"level":"DEBUG","time":"2024-05-05T15:43:32.230+0800","caller":"backend/main.go:40","msg":"logger init success ..."}
+{"level":"INFO","time":"2024-05-05T15:43:39.603+0800","caller":"logger/logger.go:84","msg":"/api/v1/posts/","status":200,"method":"GET","path":"/api/v1/posts/","query":"","ip":"127.0.0.1","user-agent":"PostmanRuntime/7.37.3","errors":"","cost":0.0034634}

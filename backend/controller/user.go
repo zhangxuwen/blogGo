@@ -5,6 +5,7 @@ import (
 	"blogWeb/logic"
 	"blogWeb/models"
 	"errors"
+	"fmt"
 
 	"github.com/gin-gonic/gin"
 	"github.com/go-playground/validator/v10"
@@ -94,7 +95,7 @@ func LoginHandler(c *gin.Context) {
 		return
 	}
 	// 业务逻辑处理
-	token, err := logic.Login(p)
+	user, err := logic.Login(p)
 	if err != nil {
 		zap.L().Error("logic.Login failed", zap.Error(err))
 		// c.JSON(http.StatusOK, gin.H{
@@ -107,5 +108,9 @@ func LoginHandler(c *gin.Context) {
 	// c.JSON(http.StatusOK, gin.H{
 	// 	"msg": "登录成功",
 	// })
-	ResponseSuccess(c, token)
+	ResponseSuccess(c, gin.H{
+		"user_id":   fmt.Sprintf("%d", user.UserID), // id值大于 1 << 53-1	||| int64类型的最大值是 1 << 63 - 1
+		"user_name": user.UserName,
+		"token":     user.Token,
+	})
 }
